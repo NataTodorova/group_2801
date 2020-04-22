@@ -1,0 +1,49 @@
+.content {
+  width: 100%;
+  position: relative;
+}
+.content > img {
+  width: 100%;
+}
+.text-block {
+  position: absolute;
+  text-align: center;
+  color: #000000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-block > h1 {
+  width: 537px;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 103px;
+  text-align: center;
+}
+.text-block > p {
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 19px;
+}
+
+.text-block > button {
+  width: 268px;
+  height: 57px;
+  font-size: 23px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #47fcc0;
+  border: none;
+  text-align: center;
+}
+.footer > p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.footer-nav {
+  padding-bottom: 20px;
+  text-align: center;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    body {
+      background-color: #253e52;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    body {
+      margin: 0;
+    }
+    .container {
+      width: 470px;
+      min-height: 80px;
+      margin: 40px auto;
+      padding: 48px;
+      text-align: center;
+      border-radius: 2px;
+      box-shadow: 0 0 10px 0 rgba(63, 78, 90, 0.11);
+      background-color: #ffffff;
+    }
+    .header {
+      margin: 0;
+      font-size: 16px;
+      color: #325e82;
+    }
+    .browsers {
+      width: 100%;
+      font-size: 10px;
+    }
+    .description,
+    .browsers {
+      margin-top: 20px;
+      color: #325e82;
+    }
+    .btn-confirm {
+      width: 104px;
+      height: 32px;
+      border-radius: 2px;
+      border: solid 1px #25a0d4;
+      background-color: #25a0d4;
+      color: #ffffff;
+      margin-top: 45px;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h2 class="header">You seem to be using an unsupported browser</h2>
+      <p class="description">
+        To get the most out of using the new Return Path please login to the new
+        experience with a supported browser.
+      </p>
+      <table class="browsers">
+        <tbody>
+          <tr>
+            <td>
+              <img src="./ie.png" alt />
+            </td>
+            <td>
+              <img src="./chrome.png" alt />
+            </td>
+            <td>
+              <img src="./firefox.png" alt />
+            </td>
+
+            <td>
+              <img src="./safari.png" alt />
+            </td>
+            <td>
+              <img src="./opera.png" alt />
+            </td>
+          </tr>
+          <tr>
+            <td>Ie 10</td>
+            <td>Chrome</td>
+            <td>Firefox</td>
+            <td>Safari</td>
+            <td>Opera</td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="btn-confirm">GOT IT</button>
+    </div>
+  </body>
+</html>
